@@ -1,0 +1,31 @@
+.button-plain {
+    color: white;
+    /* background-color: darkgoldenrod; */
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+  }
+  
+  .button-plain:hover:not(:disabled) {
+    color: goldenrod;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .button-plain:disabled {
+    opacity: 0.50;
+  }
+
+
+  .button-transparent {
+    color: goldenrod;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+
+  .button-transparent:hover:not(:disabled) {
+    border: 2px solid goldenrod;
+    cursor: pointer;
+  }

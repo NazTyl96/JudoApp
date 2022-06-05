@@ -1,0 +1,19 @@
+.simple-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .simple-flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .flex-centered {
+    justify-content: center;
+  }
+
+  .gapless {
+    gap: 0px;
+  }

@@ -1,0 +1,38 @@
+.table-container {
+    margin: 10px 0px;
+  }
+  
+  .table-borderless {
+    border-spacing: 0px;
+  }
+  
+  .table th, td {
+    padding: 10px;
+  }
+
+  .table tbody tr.selected {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }
+
+  .table tbody tr.selected td:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .table tbody tr.selected td:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .table tbody tr:not(.selected):hover {
+    background-color: lightblue;
+    cursor: pointer;
+  }
+
+  .table tbody tr:hover td:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .table tbody tr:hover td:last-child {
+    border-radius: 0 10px 10px 0;
+  }

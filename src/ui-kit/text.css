@@ -1,0 +1,15 @@
+.text-large {
+    font-size: 35pt;
+  }
+  
+.text-medium {
+  font-size: 16pt;
+}
+
+.text-small {
+  font-size: 11pt;
+}
+
+.text-bold {
+  font-weight: bold;
+}

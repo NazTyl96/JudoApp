@@ -1,0 +1,38 @@
+.sidepanel {
+  grid-area: sidepanel;
+  background-color: #303030;
+  border-radius: 25px;
+  margin: 15px;
+  margin-right: 0;
+}
+
+.sidepanel-section {
+  color: goldenrod;
+  font-size: 26pt;
+  padding: 20px 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#sidepanel-lang-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+  font-size: 16pt;
+  color: white;
+}
+
+#sidepanel-lang-checks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sidepanel-section:hover {
+  cursor: pointer;
+}
+  
+.active {
+  background-color: lavender;
+  font-weight: bold;
+}
